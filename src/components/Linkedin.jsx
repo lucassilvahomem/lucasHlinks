@@ -3,7 +3,7 @@ import './Linkedin.css'
 
 function Linkedin() {
   return (
-    <a className='container-linkedin links'>
+    <a href="https://linkedin.com" className='container-linkedin links'>
     <FaLinkedin />
         Linkedin
     <FaLinkedin />
