@@ -3,11 +3,11 @@ import './Linkedin.css'
 
 function Linkedin() {
   return (
-    <div className='container-linkedin links'>
+    <a className='container-linkedin links'>
     <FaLinkedin />
         Linkedin
     <FaLinkedin />
-    </div>
+    </a>
   )
 }
 
