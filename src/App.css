@@ -12,12 +12,21 @@
   font-size: 20px;
 }
 
+.links:visited{
+  color: black;
+}
+
+.links:hover{
+  scale: 1.1;
+}
+
 .container-app{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   background: hsla(221, 45%, 73%, 1);
 

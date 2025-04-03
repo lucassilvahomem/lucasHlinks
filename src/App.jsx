@@ -1,5 +1,6 @@
 import './App.css'
 import { IoLogoGithub } from "react-icons/io";
+import Linkedin from './components/Linkedin';
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
       <a href="https://github.com/lucassilvahomem" className='links' target='_blank'> 
       <IoLogoGithub />
         github 
+      <IoLogoGithub />
       </a>
+      <Linkedin />
     </div>
   )
 }
